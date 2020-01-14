@@ -32,9 +32,9 @@ export CLIENTID=""
 
 ```
 docker run -p 3000:3000  \
-    --env TENANTID="" \
-    --env CLIENTID="" \
-    --env CLIENTSECRET="" \
+    --env TENANTID="$TENANTID" \
+    --env CLIENTID="$CLIENTID" \
+    --env CLIENTSECRET="$CLIENTSECRET" \
     smailandstuff
 ```
 
